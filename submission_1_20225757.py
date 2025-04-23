@@ -9,16 +9,16 @@ from datetime import datetime
 from models import YOLOv8n
 
 def submission_1_20225757(yaml_path, output_json_path):
-    ###### can be modified (Only Hyperparameters, which can be modified in demo) ######
+    ###### can be modified (Only Hyperparameters,6which can be modified in demo) ######
     data_config = load_yaml_config(yaml_path)
     model_name = 'yolo11n'
     ex_dict = {}
     epochs = 20
-    batch_size = 2
+    batch_size = 4
     optimizer = 'AdamW'
-    lr = 1e-3
+    lr = 2e-3
     momentum = 0.9
-    weight_decay = 1e-4
+    weight_decay = 4e-4
     
     ###### can be modified (Only Models, which can't be modified in demo) ######
     dropout       = 0.12             

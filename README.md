@@ -1,7 +1,7 @@
 # CV_submission
 
 
-### submission_1_20225757.py: YOLOv11-nano
+### submission_1_20225757.py: YOLOv11-nano(Proposed)
 
 ### submission_2_20225757.py: YOLOv10-nano
 
